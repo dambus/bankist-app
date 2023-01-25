@@ -309,6 +309,10 @@ footer p {
   margin-bottom: 1rem;
 }
 
+.cookie-message p {
+  font-size: 1.5rem;
+}
+
 .cookie-message .btn--close-cookie {
   outline: none;
   border: none;
