@@ -242,7 +242,7 @@ const message = document.createElement("div");
 message.classList.add("cookie-message");
 // message.textContent = 'We use cookied for improved functionality and analytics.';
 message.innerHTML =
-  '<p>As this is just an example, created test accounts are: <br/>user:js - pass:1111, user:jd - pass:2222, user:stw - pass:333, user:sss - pass:4444  </p><button class="btn btn--close-cookie">Got it!</button>';
+  '<p>As this is just an example, created test accounts are: <br/> user: js - pass: 1111 <br/> user: jd - pass: 2222 <br/> user: stw - pass: 333 <br/> user: sss - pass: 4444  </p><button class="btn btn--close-cookie">Got it!</button>';
 
 // navBar.append(message.cloneNode(true));
 navBar.before(message);
